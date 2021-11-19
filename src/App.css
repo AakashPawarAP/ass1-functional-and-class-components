@@ -1,0 +1,139 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* .body{
+  background: linear-gradient(#e66465, #9198e5);
+  
+} */
+/*.App {
+  display: flex;
+  background: linear-gradient(#e66465, #9198e5);
+  /* background-image: linear-gradient(rgb(226, 176, 176)) 
+}*/
+
+/* .Heading {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+} */
+
+body {
+  background-image: linear-gradient(
+    rgb(156, 200, 200) 1rem,
+    rgb(246, 212, 251) 10rem,
+    pink,
+    white 55rem
+  );
+  height: 100vh;
+}
+
+#mainHeading {
+  text-align: center;
+  text-shadow: 3px 3px aqua;
+}
+
+.ButtonDiv {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 4%;
+}
+
+button {
+  height: 60px;
+  padding: 10px;
+  border-radius: 25px;
+  border: 2px solid black;
+  background-color: rgb(170 225 225);
+}
+
+button:hover {
+  background-color: aqua;
+}
+
+.FunctionalBased {
+  width: 400px;
+  background: aqua;
+  border: 3px solid black;
+  border-radius: 15px;
+  text-align: center;
+  margin-top: 10px;
+  height: fit-content;
+}
+
+.ClassBased {
+  width: 400px;
+  background: rgb(170, 5, 170);
+  border: 3px solid black;
+  border-radius: 15px;
+  text-align: center;
+  margin-top: 10px;
+  height: fit-content;
+}
+
+.toggleContainer {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 850px) {
+  body {
+    height: 150vh;
+  }
+  .toggleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ButtonDiv {
+    margin-left: 10%;
+    width: 312px;
+  }
+
+  .ClassBased {
+    width: 330px !important;
+  }
+
+  .FunctionalBased {
+    width: 330px;
+  }
+}
